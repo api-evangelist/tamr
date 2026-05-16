@@ -7,16 +7,68 @@ tags:
   - Data Management
   - Machine Learning
   - Enterprise Software
+  - Master Data Management
 description: 'An enterprise data management company that uses machine learning to automate the mastering, enrichment, and classification of messy data across disparate sources. Helps large organizations unify customer, supplier, and product data to power analytics and AI initiatives.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: tamr:core-rest-api
+    name: Tamr Core REST API
+    description: 'The Tamr Core REST API allows programmatic access to Tamr''s on-premise master data management application. It supports dataset management, project workflows, machine learning model training, classification, mastering operations, and orchestration of continuous data improvement.'
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.tamr.com/
+    baseURL: https://docs.tamr.com/
+    tags:
+      - Master Data Management
+      - Data Management
+      - Machine Learning
+      - Data Mastering
+      - Data Classification
+    properties:
+      - type: Documentation
+        url: https://docs.tamr.com/
+      - type: DeveloperHub
+        url: https://docs.tamr.com/
+      - type: SDK
+        url: https://github.com/Datatamer/tamr-client
+      - type: Toolbox
+        url: https://github.com/Datatamer/tamr-toolbox
+  - aid: tamr:cloud-api
+    name: Tamr Cloud API
+    description: 'The Tamr Cloud SaaS platform exposes APIs for managing tenants, data products, enrichment, and AI-driven mastering and classification workflows. Documented via the Tamr Developer Hub.'
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.tamr.com/
+    baseURL: https://docs.tamr.com/
+    tags:
+      - Master Data Management
+      - Data Products
+      - Cloud
+      - Enrichment
+      - AI
+    properties:
+      - type: Documentation
+        url: https://docs.tamr.com/
+      - type: SDK
+        url: https://github.com/Datatamer/tamr-cloud-sdk-python
 common:
   - type: Website
     url: https://www.tamr.com/
+  - type: Documentation
+    url: https://docs.tamr.com/
+  - type: GitHub
+    url: https://github.com/Datatamer
   - type: Integrations
     url: https://www.tamr.com/partners
+  - type: Blog
+    url: https://www.tamr.com/blog
+  - type: About
+    url: https://www.tamr.com/about/
+  - type: Careers
+    url: https://www.tamr.com/careers
+  - type: Pricing
+    url: https://www.tamr.com/pricing
+include: []
 integrations:
   - name: AWS Marketplace
   - name: Google Cloud Marketplace
@@ -28,3 +80,48 @@ integrations:
   - name: Lydonia
   - name: Snowflake
   - name: XponentL
+tools:
+  - name: tamr-client
+    description: 'Official Python client library for programmatically interacting with Tamr (PyPI: tamr-unify-client). Apache-2.0 licensed.'
+    url: https://github.com/Datatamer/tamr-client
+    language: Python
+    license: Apache-2.0
+  - name: tamr-toolbox
+    description: 'Higher-level Python library that simplifies common Tamr interactions and data workflows. Apache-2.0 licensed.'
+    url: https://github.com/Datatamer/tamr-toolbox
+    language: Python
+    license: Apache-2.0
+  - name: tamr-cloud-sdk-python
+    description: 'Python SDK for Tamr Cloud APIs.'
+    url: https://github.com/Datatamer/tamr-cloud-sdk-python
+    language: Python
+    license: Apache-2.0
+  - name: terraform-aws-emr
+    description: 'Terraform module for deploying Tamr-supporting EMR clusters on AWS.'
+    url: https://github.com/Datatamer/terraform-aws-emr
+    language: HCL
+    license: Apache-2.0
+  - name: terraform-aws-rds-postgres
+    description: 'Terraform module provisioning RDS PostgreSQL instances for Tamr deployments.'
+    url: https://github.com/Datatamer/terraform-aws-rds-postgres
+    language: HCL
+    license: Apache-2.0
+  - name: terraform-gcp-tamr-iam
+    description: 'Terraform module for Tamr-related IAM configuration on GCP.'
+    url: https://github.com/Datatamer/terraform-gcp-tamr-iam
+    language: HCL
+    license: Apache-2.0
+  - name: terraform-gcp-bigtable
+    description: 'Terraform module provisioning Bigtable resources for Tamr on GCP.'
+    url: https://github.com/Datatamer/terraform-gcp-bigtable
+    language: HCL
+    license: Apache-2.0
+  - name: terraform-azure-databricks
+    description: 'Terraform module deploying Azure Databricks for Tamr workloads.'
+    url: https://github.com/Datatamer/terraform-azure-databricks
+    language: HCL
+    license: Apache-2.0
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
+    X: '@apievangelist'
