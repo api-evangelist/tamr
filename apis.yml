@@ -52,6 +52,8 @@ apis:
       - type: SDK
         url: https://github.com/Datatamer/tamr-cloud-sdk-python
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/tamrinc
   - type: Website
     url: https://www.tamr.com/
   - type: Documentation
