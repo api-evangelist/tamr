@@ -2,7 +2,7 @@ aid: tamr
 url: https://raw.githubusercontent.com/api-evangelist/tamr/refs/heads/main/apis.yml
 name: Tamr
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Data Management
   - Machine Learning
@@ -16,7 +16,7 @@ apis:
   - aid: tamr:core-rest-api
     name: Tamr Core REST API
     description: 'The Tamr Core REST API allows programmatic access to Tamr''s on-premise master data management application. It supports dataset management, project workflows, machine learning model training, classification, mastering operations, and orchestration of continuous data improvement.'
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.tamr.com/
     baseURL: https://docs.tamr.com/
     tags:
@@ -37,7 +37,7 @@ apis:
   - aid: tamr:cloud-api
     name: Tamr Cloud API
     description: 'The Tamr Cloud SaaS platform exposes APIs for managing tenants, data products, enrichment, and AI-driven mastering and classification workflows. Documented via the Tamr Developer Hub.'
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.tamr.com/
     baseURL: https://docs.tamr.com/
     tags:
