@@ -30,7 +30,7 @@ apis:
         url: https://docs.tamr.com/
       - type: DeveloperHub
         url: https://docs.tamr.com/
-      - type: SDK
+      - type: SDKs
         url: https://github.com/Datatamer/tamr-client
       - type: Toolbox
         url: https://github.com/Datatamer/tamr-toolbox
@@ -49,7 +49,7 @@ apis:
     properties:
       - type: Documentation
         url: https://docs.tamr.com/
-      - type: SDK
+      - type: SDKs
         url: https://github.com/Datatamer/tamr-cloud-sdk-python
 common:
   - type: LinkedIn
