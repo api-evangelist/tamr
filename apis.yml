@@ -52,6 +52,10 @@ apis:
       - type: SDKs
         url: https://github.com/Datatamer/tamr-cloud-sdk-python
 common:
+  - type: TrustCenter
+    url: security/tamr-trust-center.yml
+  - type: DomainSecurity
+    url: security/tamr-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/tamrinc
   - type: Website
