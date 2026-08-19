@@ -22,7 +22,7 @@ tags:
 description: 'An enterprise data management company that uses machine learning to automate the mastering, enrichment, and classification of messy data across disparate sources. Helps large organizations unify customer, supplier, and product data to power analytics and AI initiatives.'
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: tamr:core-rest-api
     name: Tamr Core REST API
