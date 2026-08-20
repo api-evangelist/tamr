@@ -16,6 +16,11 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tamr.png
 tags:
   - Data Management
+  - Machine-Learning
+  - Enterprise Software
+  - Master Data Management
+tags_raw:
+  - Data Management
   - Machine Learning
   - Enterprise Software
   - Master Data Management
@@ -31,6 +36,12 @@ apis:
     humanURL: https://docs.tamr.com/
     baseURL: https://docs.tamr.com/
     tags:
+      - Master Data Management
+      - Data Management
+      - Machine-Learning
+      - Data Mastering
+      - Data Classification
+    tags_raw:
       - Master Data Management
       - Data Management
       - Machine Learning
@@ -52,6 +63,12 @@ apis:
     humanURL: https://docs.tamr.com/
     baseURL: https://docs.tamr.com/
     tags:
+      - Master Data Management
+      - Data Products
+      - Cloud
+      - Enrichment
+      - Artificial Intelligence
+    tags_raw:
       - Master Data Management
       - Data Products
       - Cloud
