@@ -27,7 +27,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tamr.png
 tags:
   - Data Management
-  - Machine-Learning
+  - Machine Learning
   - Enterprise Software
   - Master Data Management
 tags_raw:
@@ -35,6 +35,7 @@ tags_raw:
   - Machine Learning
   - Enterprise Software
   - Master Data Management
+  - Machine-Learning
 description: 'An enterprise data management company that uses machine learning to automate the mastering, enrichment, and classification of messy data across disparate sources. Helps large organizations unify customer, supplier, and product data to power analytics and AI initiatives.'
 created: '2026-05-05'
 modified: '2026-05-16'
@@ -49,7 +50,7 @@ apis:
     tags:
       - Master Data Management
       - Data Management
-      - Machine-Learning
+      - Machine Learning
       - Data Mastering
       - Data Classification
     tags_raw:
@@ -58,6 +59,7 @@ apis:
       - Machine Learning
       - Data Mastering
       - Data Classification
+      - Machine-Learning
     properties:
       - type: Documentation
         url: https://docs.tamr.com/
